@@ -3,6 +3,7 @@ import Pomodoro from "./components/Pomodoro";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 
+
 const App = () => {
 
 
@@ -11,6 +12,7 @@ const App = () => {
     <Routes>
       <Route path="/"  element={<Home/>}/>
       <Route path="/pomodoro"  element={<Pomodoro />} />
+
     </Routes>
     </BrowserRouter>
    
